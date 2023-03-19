@@ -1,4 +1,5 @@
 import Expenses from "./components/Expenses";
+import NewExpense from "./components/NewExpense";
 
 document.body.style.backgroundColor = 'lightgray';
 
@@ -18,6 +19,7 @@ function App() {
   return (
     <div>
       <h1>Hello react</h1>
+      <NewExpense></NewExpense>
       <Expenses items={expenses}></Expenses>
     </div>
   );
